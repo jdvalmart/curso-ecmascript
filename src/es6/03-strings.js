@@ -20,3 +20,10 @@ esta es la continuacion de esta frase`;
 
 console.log(lorem);
 console.log(lorem2);
+
+
+const numero = (num1, num2) => `el numero es: ${num1 + num2}`
+
+
+const resultado = numero(10, 20)
+console.log(resultado);

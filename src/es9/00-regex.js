@@ -1,4 +1,5 @@
-var myRe = new RegExp('d(b+)d', 'g');
-var myArray = myRe.exec('cdbbdbsbz');
+const regex = /(\d{4})-(\d{2})-(\d{2})/;
 
-console.log(myArray);
+const matchers = regex.exec('2022-02-02');
+
+console.table(matchers);
